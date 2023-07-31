@@ -7,6 +7,7 @@ import { Products } from './Products';
 import { Contact } from './Contact';
 import { SingleProduct } from './SingleProduct';
 import { Cart } from './Cart';
+import { Error } from './Error';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path='/contact' element={<Contact/>}/>
         <Route path='/singleproduct/:id' element={<SingleProduct/>}/>
         <Route path='/cart' element={<Cart/>}/>
+        <Route path='*' element={<Error/>}/>
       </Routes>
     </Router>
   );
