@@ -11,6 +11,7 @@ import { Error } from "./pages/Error";
 
 import { GlobalStyle } from "./GlobalStyle";
 import { ThemeProvider } from "styled-components";
+import { Header } from "./components/Header";
 
 function App() {
   const theme = {
@@ -40,6 +41,7 @@ function App() {
     <ThemeProvider theme={theme}>
       <Router>
         <GlobalStyle />
+        <Header/>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
