@@ -1,12 +1,9 @@
-import React from 'react'
-import { styled } from 'styled-components';
+import React from "react";
+import { HeroSection } from "../components/HeroSection";
 
 export const About = () => {
-  return (
-    <Wrapper>About</Wrapper>
-  )
-}
-const Wrapper = styled.section`
-    background-color: ${({theme}) => theme.colors.bg};
-    height: 100vh;
-`;
+  const data = {
+    name: "Vivek Ecommerce",
+  };
+  return <HeroSection myData={data} />;
+};
