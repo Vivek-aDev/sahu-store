@@ -9,7 +9,8 @@ export const Trusted = () => {
         <div className="brand-section-slider">
           <div className="slide">
             <img
-              src="images/google.png" alt=""
+              src="https://raw.githubusercontent.com/solodev/infinite-logo-carousel/master/images/image2.png"
+              alt="trusted-brands"
             />
           </div>
           <div className="slide">
