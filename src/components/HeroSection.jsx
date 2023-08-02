@@ -25,7 +25,7 @@ export const HeroSection = ({myData}) => {
 
           <div className="hero-section-image">
             <figure>
-              <img src="images/hero.jpg" alt="hero" className="img-style"/>
+              <img src="images/hero2.jpg" alt="hero" className="img-style"/>
             </figure>
           </div>
         </div>
