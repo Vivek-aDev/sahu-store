@@ -19,7 +19,7 @@ export const Contact = () => {
 
       <div className="container">
         <div className="contact-form">
-          <form className="contact-inputs" action="" method="post">
+          <form className="contact-inputs" action="https://formspree.io/f/mgejorgo" method="post">
             <input
               type="text"
               placeholder="Enter Username"
