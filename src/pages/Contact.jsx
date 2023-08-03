@@ -16,6 +16,36 @@ export const Contact = () => {
         loading="lazy"
         referrerPolicy="no-referrer-when-downgrade"
       ></iframe>
+
+      <div className="container">
+        <div className="contact-form">
+          <form className="contact-inputs" action="" method="post">
+            <input
+              type="text"
+              placeholder="Enter Username"
+              name="username"
+              autoComplete="off"
+              required
+            />
+            <input
+              type="text"
+              placeholder="Enter your Email"
+              name="Email"
+              autoComplete="off"
+              required
+            />
+            <textarea
+              placeholder="Write the message"
+              name="Message"
+              autoComplete="off"
+              required
+              cols="30"
+              rows="10"
+            ></textarea>
+            <input type="submit" name="" value="submit" />
+          </form>
+        </div>
+      </div>
     </Wrapper>
   );
 };
